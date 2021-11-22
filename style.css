@@ -1,0 +1,19 @@
+[class*="col-"] {
+    border: 2px solid white;
+    background-color: blue;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    margin-bottom: 30px;
+}
+
+.row{
+    border: 2px solid yellow;
+}
+
+
