@@ -8,12 +8,27 @@
     color: white;
 }
 
+[class*="col-offset-"] {
+    background-color: white;
+}
 .container{
     margin-bottom: 30px;
 }
 
 .row{
     border: 2px solid yellow;
+}
+
+.start{
+    justify-content: start;
+}
+
+.center{
+    justify-content: center;
+}
+
+.end{
+    justify-content: end;
 }
 
 
