@@ -1,22 +1,32 @@
 [class*="col-"] {
-    border: 2px solid white;
+    padding: 5px;
+    border: 5px solid white;
     background-color: blue;
     height: 100px;
     text-align: center;
-    line-height: 100px;
+    line-height: 80px;
     font-size: 30px;
     color: white;
+    
+}
+
+.nest {
+    background-color: greenyellow;
+    height: 80px;
+    border: 5px solid blue;
+    line-height: 60px;
+}
+
+.col2 {
+    height: 200px;
 }
 
 [class*="col-offset-"] {
     background-color: white;
 }
+
 .container{
     margin-bottom: 30px;
-}
-
-.row{
-    border: 2px solid yellow;
 }
 
 .start{
@@ -29,6 +39,26 @@
 
 .end{
     justify-content: end;
+}
+
+.top{
+    align-items: flex-start;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: flex-end;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.between{
+    justify-content: space-between;
 }
 
 
